@@ -80,7 +80,30 @@ public class Main {
         }
         //ternary operator is a shortcut to assigning one of 2 values to a variable depending on a given condition
 
+        //begin operator challenge
 
+        //step 1
+        double myVar = 20.00;
+
+        //step 2
+        double myVar2 = 80.00;
+
+        //step 3
+        double myVar3 = (myVar + myVar2)*100.00;
+
+        //step 4
+        double myRemainder = myVar3 % 40.00;
+
+        //step 5
+        boolean isZero = myRemainder == 0 ? true : false;
+
+        //step 6
+        System.out.println(isZero);
+
+        //step 7
+        if (!isZero) {
+            System.out.println("got some remainder");
+        }
 
     }
 }
