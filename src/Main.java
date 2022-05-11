@@ -41,5 +41,13 @@ public class Main {
         result -= 2; // 10 - 2 = 8
         System.out.println("10 - 2 = " + result);
 
+        boolean isAlien = false;
+        if (isAlien == false) {
+            System.out.println("It is not an alien!");
+            System.out.println("And I am scared of aliens!");
+        }
+        //single equals is an assignment operator. double equals is testing if value is false. if evaluation matches, next line is run. Note lack of ending semicolon on the if statement
+
+
     }
 }
