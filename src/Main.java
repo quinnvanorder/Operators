@@ -73,6 +73,14 @@ public class Main {
             System.out.println("this is not supposed to happen");
         }
 
+        isCar = true;
+        boolean wasCar = isCar ? true : false;
+        if (wasCar) {
+            System.out.println("wasCar is true");
+        }
+        //ternary operator is a shortcut to assigning one of 2 values to a variable depending on a given condition
+
+
 
     }
 }
